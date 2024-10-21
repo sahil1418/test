@@ -1,0 +1,46 @@
+/* Default dark theme styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #777;
+}
+
+/* Light theme styles */
+body.light-theme {
+    background-color: #f4f4f4;
+    color: #121212;
+}
+
+button.light-theme {
+    background-color: #ddd;
+    color: #121212;
+}
+
+/* Audio control styling */
+audio {
+    margin-top: 20px;
+    width: 300px;
+}
